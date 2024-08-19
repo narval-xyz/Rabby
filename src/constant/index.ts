@@ -1447,6 +1447,7 @@ export const WALLET_SORT_SCORE = [
   WALLET_BRAND_TYPES.FIREBLOCKS,
   WALLET_BRAND_TYPES.JADE,
   WALLET_BRAND_TYPES.MPCVault,
+  WALLET_BRAND_TYPES.NARVAL,
 ].reduce((pre, now, i) => {
   pre[now] = i + 1;
   return pre;

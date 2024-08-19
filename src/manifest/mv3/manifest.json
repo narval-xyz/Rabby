@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "__MSG_appName__",
-  "short_name": "__MSG_appName__",
-  "version": "0.92.87",
+  "name": "Narval",
+  "short_name": "Narval",
+  "version": "0.0.4",
   "default_locale": "en",
-  "description": "__MSG_appDescription__",
+  "description": "Rabby browser extension forked by Narval team",
   "icons": {
     "16": "images/icon-16.png",
     "19": "images/icon-19.png",
@@ -23,7 +23,7 @@
       "48": "images/icon-48.png",
       "128": "images/icon-128.png"
     },
-    "default_title": "Rabby",
+    "default_title": "Narval",
     "default_popup": "popup.html"
   },
   "author": "https://rabby.io/",

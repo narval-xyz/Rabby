@@ -29,7 +29,9 @@ import IconMnemonics, {
 import IconPrivatekey, {
   ReactComponent as RcIconPrivatekey,
 } from 'ui/assets/import/privatekey-light.svg';
-
+import IconNarval, {
+  ReactComponent as RcIconNarval,
+} from 'ui/assets/import/narval.svg';
 import { ReactComponent as IconAddFromCurrentSeedPhrase } from 'ui/assets/address/add-from-current-seed-phrase.svg';
 
 import './style.less';
@@ -303,6 +305,13 @@ const AddAddressOptions = () => {
         brand: 'importPrivatekey',
         content: t('page.newAddress.importPrivateKey'),
         onClick: () => handleRouter((history) => history.push('/import/key')),
+      },
+      {
+        leftIcon: RcIconNarval,
+        brand: 'connectNarval',
+        content: t('page.newAddress.connectNarval'),
+        onClick: () =>
+          handleRouter((history) => history.push('/import/narval')),
       },
       {
         leftIcon: IconMetamask,

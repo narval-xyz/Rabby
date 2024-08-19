@@ -1350,6 +1350,7 @@
       "title": "Add an Address",
       "importSeedPhrase": "Import Seed Phrase",
       "importPrivateKey": "Import Private Key",
+      "connectNarval": "Connect Narval",
       "importMyMetamaskAccount": "Import My MetaMask Account",
       "addContacts": {
         "content": "Add Contacts",
